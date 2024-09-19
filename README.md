@@ -1,5 +1,3 @@
-Coleta, Inserção e Previsão de Dados Meteorológicos
-
 Este projeto envolve três componentes principais:
 
 1. Coleta e inserção de dados meteorológicos em tempo real no banco de dados MySQL**.
