@@ -96,7 +96,7 @@ def inserir_dados_no_banco(cursor, data, temperatura, precipitacao, umidade):
 def coletar_e_inserir_dados(api_key, latitude, longitude):
     """Coleta e insere dados de previsão no banco de dados."""
     criar_backup()  
-    conn = None  
+
     try:
         
         password = os.getenv('MYSQL_PASSWORD')
